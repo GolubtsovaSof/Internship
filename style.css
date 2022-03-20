@@ -1,0 +1,283 @@
+body{
+    background-color: #eeeeee;
+}
+main{
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+}
+.bottom{
+    height:30px;
+
+}
+h1{
+    display: inline-block;
+    margin-left: 7%;
+}
+
+h1, .back{
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%)
+}
+
+.back{
+    margin-left: 1.5%;
+}
+
+.right-icons{
+    position: absolute;
+    right:15px;  
+    height:100%;
+}
+
+.right-icon{
+    display:inline-flex;
+    align-items: center;
+    height:100%;
+}
+.right-icon a{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: 10px;
+}
+.right-icon a p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.head-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 13vmin;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+a p{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-tabs{
+    padding-left: 3%;
+    background-color: white;
+    font-size: 2vmin;
+    height: 7vmin;
+    overflow: hidden;
+}
+
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: rgb(213, 213, 213);
+    border-color: #dee2e6 #dee2e6 #fff;
+    height: 7vmin;
+}
+
+.nav-link, .nav-link:hover{
+    color:#2c2c2c;
+    height: 7vmin;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link svg{
+    margin-right:2%;
+}
+
+nav{
+    border: 1px solid #ddd;
+}
+
+.round {
+    background-image: url(https://st2.depositphotos.com/3648933/5449/i/950/depositphotos_54492017-stock-photo-man-with-flowers.jpg);
+    width: 90%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    margin-left:auto;
+    margin-right:2%;
+    margin-top: 1%;
+    width: 25%;
+    text-align: center;
+}
+#mapCard{
+    width:96%;
+}
+h6{
+    padding:3%;
+}
+.left{
+    height:100%;
+    width: 72%;
+    position:absolute;
+    margin-left: 2%;
+}
+.left .card{
+    width:96%;
+    margin:0;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left .card img{
+    width:100%;
+}
+.p-comment, .p-post{
+    padding-top: 5%;
+}
+.card-title{
+    padding: 5%;
+}
+.card-link+.card-link {
+    margin-left: 3%;
+}
+.mapCard h4{
+    margin: 2%;
+}
+#time{
+    margin-bottom: 2%;
+}
+.dropbtn {
+    padding: 5%;
+    font-size: 2.5vmin;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    background-color: white;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width:100%;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    text-align: left;
+    background-color: white;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 3% 5%;
+    text-decoration: none;
+    display: block;
+    font-size: 2.5vmin;
+}
+.dropdown-content svg {
+    margin-right: 10px;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+hr{
+    margin: 0;
+}
+
+#myDropdown2{
+    text-align: center;
+}
+
+#myDropdown2 textarea{
+    width:95%;
+    height:50px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+blockquote{
+    border-left: 10px solid rgb(201, 201, 201);
+    padding-left: 30px;
+}
+blockquote h6{
+    font-style: italic;
+}
+
+.map{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
+.preloader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    margin-left: -32px;
+    background: url('./Skateboarding.gif') no-repeat 50% 50%;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+h1 {
+    font-size: 5vmin;
+}
+h2 {
+    font-size: 3.0vh;
+}
+h4{
+    font-size: 4vmin;
+}
+h5{
+    font-size: 3vmin;
+}
+h6{
+    font-size: 1.7vmin;
+}
+
+.figcaption,.cite{
+    font-size: 3vh;
+}
+p {
+    font-size: 2vmin;
+}
+::placeholder{
+    font-size: 2vmin;
+}
