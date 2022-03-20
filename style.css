@@ -234,6 +234,7 @@ blockquote h6{
     bottom: 0;
     overflow: hidden;
     z-index: 1001;
+    background-color: white;
 }
 
 .preloader__image {
