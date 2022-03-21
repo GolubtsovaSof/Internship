@@ -298,3 +298,40 @@ blockquote h6{
 #time{
     margin-bottom: 2%;
 }
+
+@media screen and (max-width:457px) {
+    h1 {
+        font-size: 18px;
+    }
+    p{
+        font-size: 8px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 10px;
+    }
+    h6{
+        font-size: 7px;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:296px) {
+    h5{
+        font-size: 8px;
+    }
+    h6{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:270px) {
+    h1 {
+        font-size: 10px;
+    }
+}
