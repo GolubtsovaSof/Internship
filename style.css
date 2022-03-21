@@ -1,0 +1,129 @@
+body{
+    background-color: #eeeeee;
+}
+
+main{
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 7%;
+}
+
+h1, .back{
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%)
+}
+
+.back{
+    margin-left: 1.5%;
+}
+
+.right-icons{
+    position: absolute;
+    right:15px;  
+    height:100%;
+}
+
+.right-icon{
+    display:inline-flex;
+    align-items: center;
+    height:100%;
+}
+.right-icon a{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: 10px;
+}
+.right-icon a p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.head-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 13vmin;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a p{
+    color: black;
+}
+
+.nav-tabs{
+    padding-left: 3%;
+    background-color: white;
+    font-size: 2vmin;
+    height: 7vmin;
+    overflow: hidden;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: rgb(213, 213, 213);
+    border-color: #dee2e6 #dee2e6 #fff;
+    height: 7vmin;
+}
+
+.nav-link, .nav-link:hover{
+    color:#2c2c2c;
+    height: 7vmin;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link svg{
+    margin-right:2%;
+}
+
+nav{
+    border: 1px solid #ddd;
+}.nav-tabs{
+    padding-left: 3%;
+    background-color: white;
+    font-size: 2vmin;
+    height: 7vmin;
+    overflow: hidden;
+}
+
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: rgb(213, 213, 213);
+    border-color: #dee2e6 #dee2e6 #fff;
+    height: 7vmin;
+}
+
+.nav-link, .nav-link:hover{
+    color:#2c2c2c;
+    height: 7vmin;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link svg{
+    margin-right:2%;
+}
+
+nav{
+    border: 1px solid #ddd;
+}
