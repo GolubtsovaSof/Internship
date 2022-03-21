@@ -1,14 +1,16 @@
 body{
     background-color: #eeeeee;
 }
+
 main{
     padding-bottom: 30px;
     background-color: #eeeeee;
 }
+
 .bottom{
     height:30px;
-
 }
+
 h1{
     display: inline-block;
     margin-left: 7%;
@@ -35,12 +37,14 @@ h1, .back{
     align-items: center;
     height:100%;
 }
+
 .right-icon a{
     display:flex;
     flex-flow: column;
     align-items: center;
     margin-right: 10px;
 }
+
 .right-icon a p{
     margin-bottom: 0;
     padding-bottom: 0;
@@ -75,7 +79,6 @@ a{
     overflow: hidden;
 }
 
-
 .nav-tabs .nav-link.active {
     color: #495057;
     background-color: rgb(213, 213, 213);
@@ -87,10 +90,12 @@ a{
     color:#2c2c2c;
     height: 7vmin;
 }
+
 .nav-link{
     display: flex;
     align-items: center;
 }
+
 .nav-link svg{
     margin-right:2%;
 }
@@ -118,18 +123,22 @@ nav{
     width: 25%;
     text-align: center;
 }
+
 #mapCard{
     width:96%;
 }
+
 h6{
     padding:3%;
 }
+
 .left{
     height:100%;
     width: 72%;
     position:absolute;
     margin-left: 2%;
 }
+
 .left .card{
     width:96%;
     margin:0;
@@ -141,21 +150,27 @@ h6{
 .left .card img{
     width:100%;
 }
+
 .p-comment, .p-post{
     padding-top: 5%;
 }
+
 .card-title{
     padding: 5%;
 }
+
 .card-link+.card-link {
     margin-left: 3%;
 }
+
 .mapCard h4{
     margin: 2%;
 }
+
 #time{
     margin-bottom: 2%;
 }
+
 .dropbtn {
     padding: 5%;
     font-size: 2.5vmin;
@@ -189,6 +204,7 @@ h6{
     display: block;
     font-size: 2.5vmin;
 }
+
 .dropdown-content svg {
     margin-right: 10px;
 }
@@ -217,6 +233,7 @@ blockquote{
     border-left: 10px solid rgb(201, 201, 201);
     padding-left: 30px;
 }
+
 blockquote h6{
     font-style: italic;
 }
@@ -226,6 +243,7 @@ blockquote h6{
     padding-left: auto;
     padding-right: auto;
 }
+
 .preloader {
     position: absolute;
     left: 0;
@@ -260,15 +278,19 @@ blockquote h6{
 h1 {
     font-size: 5vmin;
 }
+
 h2 {
     font-size: 3.0vh;
 }
+
 h4{
     font-size: 4vmin;
 }
+
 h5{
     font-size: 3vmin;
 }
+
 h6{
     font-size: 1.7vmin;
 }
@@ -276,9 +298,11 @@ h6{
 .figcaption,.cite{
     font-size: 3vh;
 }
+
 p {
     font-size: 2vmin;
 }
+
 ::placeholder{
     font-size: 2vmin;
 }
