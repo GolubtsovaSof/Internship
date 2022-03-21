@@ -213,3 +213,39 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+h6{
+    padding:3%;
+}
+
+.left{
+    height:100%;
+    width: 72%;
+    position:absolute;
+    margin-left: 2%;
+}
+
+.left .card{
+    width:96%;
+    margin:0;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left .card img{
+    width:100%;
+}
+
+.p-comment, .p-post{
+    padding-top: 5%;
+}
+
+blockquote{
+    border-left: 10px solid rgb(201, 201, 201);
+    padding-left: 30px;
+}
+
+blockquote h6{
+    font-style: italic;
+}
