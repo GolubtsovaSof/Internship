@@ -294,3 +294,7 @@ blockquote h6{
 .loaded .preloader {
     display: none;
 }
+
+#time{
+    margin-bottom: 2%;
+}

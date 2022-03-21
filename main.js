@@ -59,3 +59,19 @@ function waitForTilesLoad(layer) {
         }
     });
 }
+
+var date_1 = new Date();
+var time = setInterval(function() {
+var date_2 = new Date();
+var res= new Date(date_2-date_1-10800000);
+var hours = res.getHours();
+var minutes = res.getMinutes();
+var seconds=res.getSeconds();
+
+if (hours<10) hours = "0" + hours;
+if (minutes<10) minutes = "0" + minutes;
+if (seconds<10) seconds = "0" + seconds;
+
+var res2 = ""+ hours + ":" + minutes + ":" + seconds;
+document.getElementById("time").innerHTML = res2;
+})
