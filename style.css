@@ -249,3 +249,17 @@ blockquote{
 blockquote h6{
     font-style: italic;
 }
+
+#mapCard{
+    width:96%;
+}
+
+.mapCard h4{
+    margin: 2%;
+}
+
+.map{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
