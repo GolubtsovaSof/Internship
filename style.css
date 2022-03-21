@@ -127,3 +127,89 @@ nav{
 nav{
     border: 1px solid #ddd;
 }
+
+.round {
+    background-image: url(https://st2.depositphotos.com/3648933/5449/i/950/depositphotos_54492017-stock-photo-man-with-flowers.jpg);
+    width: 90%;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    margin-left:auto;
+    margin-right:2%;
+    margin-top: 1%;
+    width: 25%;
+    text-align: center;
+}
+
+.card-title{
+    padding: 5%;
+}
+
+.card-link+.card-link {
+    margin-left: 3%;
+}
+
+.dropbtn {
+    padding: 5%;
+    font-size: 2.5vmin;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    background-color: white;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width:100%;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    text-align: left;
+    background-color: white;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 3% 5%;
+    text-decoration: none;
+    display: block;
+    font-size: 2.5vmin;
+}
+
+.dropdown-content svg {
+    margin-right: 10px;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+hr{
+    margin: 0;
+}
+
+#myDropdown2{
+    text-align: center;
+}
+
+#myDropdown2 textarea{
+    width:95%;
+    height:50px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
