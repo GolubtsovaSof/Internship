@@ -3,7 +3,6 @@ body{
 }
 
 main{
-    padding-bottom: 30px;
     background-color: #eeeeee;
 }
 
@@ -65,67 +64,22 @@ a p{
     color: black;
 }
 
-.nav-tabs{
-    padding-left: 3%;
-    background-color: white;
-    font-size: 2vmin;
-    height: 7vmin;
-    overflow: hidden;
+nav{
+    border: 1px solid #ddd;
+}   
+
+.nav-item:hover{
+    cursor: pointer;
 }
 
-.nav-tabs .nav-link.active {
+.nav-item a{
+    color:#495057;
+}
+
+.active{
     color: #495057;
     background-color: rgb(213, 213, 213);
     border-color: #dee2e6 #dee2e6 #fff;
-    height: 7vmin;
-}
-
-.nav-link, .nav-link:hover{
-    color:#2c2c2c;
-    height: 7vmin;
-}
-
-.nav-link{
-    display: flex;
-    align-items: center;
-}
-
-.nav-link svg{
-    margin-right:2%;
-}
-
-nav{
-    border: 1px solid #ddd;
-}.nav-tabs{
-    padding-left: 3%;
-    background-color: white;
-    font-size: 2vmin;
-    height: 7vmin;
-    overflow: hidden;
-}
-
-
-.nav-tabs .nav-link.active {
-    color: #495057;
-    background-color: rgb(213, 213, 213);
-    border-color: #dee2e6 #dee2e6 #fff;
-    height: 7vmin;
-}
-
-.nav-link, .nav-link:hover{
-    color:#2c2c2c;
-    height: 7vmin;
-}
-.nav-link{
-    display: flex;
-    align-items: center;
-}
-.nav-link svg{
-    margin-right:2%;
-}
-
-nav{
-    border: 1px solid #ddd;
 }
 
 .round {
@@ -146,6 +100,10 @@ nav{
     margin-top: 1%;
     width: 25%;
     text-align: center;
+}
+
+.bottom{
+    height: 30px;
 }
 
 .card-title{
